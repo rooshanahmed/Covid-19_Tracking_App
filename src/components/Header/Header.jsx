@@ -15,7 +15,7 @@ function Header (){
         <div className={classes.container}>
             <AppBar position="static" className={classes.right} color="secondary">
                 <Toolbar variant="dense">
-                    <img src={logo} className={classes.logo} title="Covid-19" value="logo" />
+                    <img src={logo} className={classes.logo} title="Covid-19" alt="logo" />
                 </Toolbar>
             </AppBar>
             <AppBar position="static" className={classes.left} color="secondary">
