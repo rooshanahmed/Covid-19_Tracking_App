@@ -26,6 +26,7 @@ export const useStyles = makeStyles(theme => ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center'
+        
     },
     heading: {
         borderBottom: '1px solid azure',

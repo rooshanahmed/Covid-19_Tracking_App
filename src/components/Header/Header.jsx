@@ -21,7 +21,7 @@ function Header (){
             <AppBar position="static" className={classes.left} color="secondary">
                 <Toolbar variant="dense" className={classes.typo}>
                     <Typography variant="h4" color="inherit" className={classes.heading}>
-                        Covid-19 Tracker
+                        COVID-19 TRACKING
                     </Typography>
                     <Typography color="inherit" className={classes.para}>
                         The Coronavirus (COVID-19) was first reported in Wuhan, China in December 2019,
