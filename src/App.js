@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Cards from './components/Card/Cards';
 import Chart from './components/Chart/Chart';
 import CountryPick from './components/CountryPick/CountryPick';
+import Footer from './components/Footer/Footer';
 import { fetchData } from './components/DataFetch/Fetch';
 import styles from './App.module.css';
 
@@ -39,6 +40,7 @@ class App extends Component {
       <Cards data={data} />
       <CountryPick handleCountryChange={this.handleCountryChange}/>
       <Chart data={data} country={country}/>
+      <Footer />
     </div>  
   );
 }

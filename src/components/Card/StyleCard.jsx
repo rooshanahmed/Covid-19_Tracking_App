@@ -12,7 +12,7 @@ export const useStyles = makeStyles(theme => ({
         }
     },
     card: {
-        margin: '0 2% !important',        
+        margin: '4px !important',        
         // margin: '50px 0',
         [theme.breakpoints.down("sm")]: {
             marginBottom: '10px !important' 
