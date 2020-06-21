@@ -20,6 +20,7 @@ function Footer (){
                             Rooshan Ahmed&copy;
                         </Typography>
                         <Button variant="contained" href="https://github.com/rooshanahmed/Covid-19_Tracking_App" target="_blank" className={classes.button}><b>GitHub Repository</b></Button>
+                        <Button variant="contained" href="https://www.facebook.com/rooshan.ahmed0" target="_blank" className={classes.buttun}><b>Facebook Profile</b></Button>
                     </div>
                 </Toolbar>
             </AppBar>

@@ -42,4 +42,15 @@ export const useStyles = makeStyles(theme => ({
             padding: '3px 8px'
         },
     },
+    buttun: {
+        marginTop: '10px',
+        marginLeft: '5px',
+        padding: '10px',
+        color: 'white',
+        backgroundColor: 'blue',
+        [theme.breakpoints.down("sm")]:{
+            fontSize: '10px',
+            padding: '3px 8px'
+        },
+    },
 }));
