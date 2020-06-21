@@ -44,13 +44,14 @@ const useStyles = makeStyles(theme =>({
         }
     },
     heading: {
+        color: 'black',
         fontStyle: 'Lucida Sans',
         fontWeight: 'bold',
         fontSize: '3.2em',
         marginBottom: '10px',
-        letterSpacing: '2px',
+        letterSpacing: '1px',
         textAlign: 'center',
-        borderBottom: '1px solid azure',
+        borderBottom: '1px solid black',
         [theme.breakpoints.down("sm")]: {
             fontSize: '2em'
         },
@@ -59,6 +60,7 @@ const useStyles = makeStyles(theme =>({
         },
     },
     para: {
+        color: 'black',
         width: '80%',
         fontSize: '1em',
         fontFamily: 'sans-serif',

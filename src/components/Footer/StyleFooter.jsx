@@ -24,7 +24,7 @@ export const useStyles = makeStyles(theme => ({
     typo: {
         fontFamily: 'Poppins',
         color: 'black',
-        borderBottom: '1px solid azure',
+        borderBottom: '1px solid black',
         [theme.breakpoints.down("sm")]: {
             fontSize: '1.5em'
         },
