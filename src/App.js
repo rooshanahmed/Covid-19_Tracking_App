@@ -35,13 +35,13 @@ class App extends Component {
     console.log(data)
   
   return (
-    <div className={styles.container}>
-      <Header />
-      <Cards data={data} />
-      <CountryPick handleCountryChange={this.handleCountryChange}/>
-      <Chart data={data} country={country}/>
-      <Footer />
-    </div>  
+      <div className={styles.container}>
+        <Header />
+        <Cards data={data} />
+        <CountryPick handleCountryChange={this.handleCountryChange}/>
+        <Chart data={data} country={country}/>
+        <Footer />
+      </div>
   );
 }
 }

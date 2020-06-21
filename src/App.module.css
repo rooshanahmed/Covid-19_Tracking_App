@@ -1,6 +1,10 @@
 body {
-  background-color: rgb(250, 250, 250);
+  background-image: url("https://scx2.b-cdn.net/gfx/news/2020/1-pandemic.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
+  background-color: black;
 }
 .container {
   max-width: 100vw;
