@@ -1,10 +1,9 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Button } from '@material-ui/core';
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import { useStyles } from './StyleFooter';
 import cloud from './cloud.png';
-
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function Footer (){
 
@@ -19,8 +18,14 @@ function Footer (){
                         <Typography variant="h4" className={classes.typo}>
                             Rooshan Ahmed&copy;
                         </Typography>
-                        <Button variant="contained" href="https://github.com/rooshanahmed/Covid-19_Tracking_App" target="_blank" className={classes.button}><b>GitHub Repository</b></Button>
-                        <Button variant="contained" href="https://www.facebook.com/rooshan.ahmed0" target="_blank" className={classes.buttun}><b>Facebook Profile</b></Button>
+                        <div className={classes.contain}>
+                            <a href="https://github.com/rooshanahmed" className={classes.github} target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub} size="3x"/>
+                            </a>
+                            <a href="https://www.facebook.com/rooshan.ahmed0" className={classes.facebook} target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faFacebook} size="3x"/>
+                            </a>
+                        </div>
                     </div>
                 </Toolbar>
             </AppBar>

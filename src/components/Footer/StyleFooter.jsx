@@ -32,25 +32,16 @@ export const useStyles = makeStyles(theme => ({
             fontSize: '1em'
         },    
     },
-    button: {
-        marginTop: '10px',
-        padding: '10px',
-        color: 'white',
-        backgroundColor: 'black',
-        [theme.breakpoints.down("sm")]:{
-            fontSize: '10px',
-            padding: '3px 8px'
-        },
+    contain: {
+        display: 'inline-block',
+        marginTop: '5px',
+        padding: '0 8px',
     },
-    buttun: {
-        marginTop: '10px',
-        marginLeft: '5px',
-        padding: '10px',
-        color: 'white',
-        backgroundColor: 'blue',
-        [theme.breakpoints.down("sm")]:{
-            fontSize: '10px',
-            padding: '3px 8px'
-        },
+    github: {
+        color: 'black',
+    },
+    facebook: {
+        color: 'blue',
+        padding: '5px',
     },
 }));
