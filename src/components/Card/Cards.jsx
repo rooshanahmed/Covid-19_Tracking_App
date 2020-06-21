@@ -3,6 +3,7 @@ import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 import { useStyles } from './StyleCard';
+import './backpic.jpg';
 
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
@@ -16,7 +17,6 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
     return ( 
 
         <div className={classes.container} >
-
             <Grid 
                 container 
                 spacing={3} 
@@ -59,7 +59,6 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
                     </CardContent>
                 </Grid>
             </Grid>
-
         </div>
 
     )

@@ -22,17 +22,9 @@ export const useStyles = makeStyles(theme => ({
         },    
     },
     typo: {
-        fontFamily: 'monospace',
+        fontFamily: 'Poppins',
+        color: 'black',
         borderBottom: '1px solid azure',
-        [theme.breakpoints.down("sm")]: {
-            fontSize: '1.5em'
-        },
-        [theme.breakpoints.down("xs")]: {
-            fontSize: '1em'
-        },    
-    },
-    typo2: {
-        fontFamily: 'monospace',
         [theme.breakpoints.down("sm")]: {
             fontSize: '1.5em'
         },
