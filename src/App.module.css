@@ -1,10 +1,11 @@
 body {
-  background-image: url("https://scx2.b-cdn.net/gfx/news/2020/1-pandemic.jpg");
+  background-image: url("https://en.as.com/tikitakas/imagenes/2020/03/25/reportajes/1585152284_637580_1585315497_noticiareportajes_grande.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
   background-color: black;
+  display: float;
 }
 .container {
   max-width: 100vw;
