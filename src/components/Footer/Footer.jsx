@@ -11,7 +11,7 @@ function Footer (){
 
     return (
         <div className={classes.container}>
-            <AppBar position="static" className={classes.footer} color="secondary">
+            <AppBar position="static" className={classes.footer} style={{ background : '#282c34' }}>
                 <Toolbar variant="dense" className={classes.toolbar}>
                     <img src={cloud} className={classes.vector} alt="cloud logo"/>   
                     <div>

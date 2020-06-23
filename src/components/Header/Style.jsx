@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme =>({
         }
     },
     logo: {
-        height: '300px',
+        height: '250px',
         margin: '30px',
         [theme.breakpoints.down("sm")]: {
             height: '200px'
@@ -44,7 +44,7 @@ const useStyles = makeStyles(theme =>({
         }
     },
     heading: {
-        color: 'black',
+        color: 'white',
         fontStyle: 'Lucida Sans',
         fontWeight: 'bold',
         fontSize: '3.2em',
@@ -60,7 +60,7 @@ const useStyles = makeStyles(theme =>({
         },
     },
     para: {
-        color: 'black',
+        color: 'white',
         width: '80%',
         fontSize: '1em',
         fontFamily: 'sans-serif',

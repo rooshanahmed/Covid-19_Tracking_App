@@ -13,7 +13,7 @@ export const useStyles = makeStyles(theme => ({
     },
     vector: {
         height: '200px',
-        marginLeft: '30px',
+        marginLeft: '10px',
         [theme.breakpoints.down("sm")]: {
             height: '150px'
         },

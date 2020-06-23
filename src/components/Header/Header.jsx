@@ -13,12 +13,12 @@ function Header (){
 
     return (
         <div className={classes.container}>
-            <AppBar position="static" className={classes.right} color="secondary">
+            <AppBar position="static" className={classes.right} style={{ background : '#282c34' }}>
                 <Toolbar variant="dense">
                     <img src={logo} className={classes.logo} title="Covid-19" alt="logo" />
                 </Toolbar>
             </AppBar>
-            <AppBar position="static" className={classes.left} color="secondary">
+            <AppBar position="static" className={classes.left} style={{ background : '#282c34' }}>
                 <Toolbar variant="dense" className={classes.typo}>
                     <Typography variant="h4" color="inherit" className={classes.heading}>
                         COVID-19 TRACKING

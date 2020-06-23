@@ -35,15 +35,15 @@ export const useStyles = makeStyles(theme => ({
     },
     infected: {
         //borderBottom: '10px solid rgba(0, 0, 255, 0.5)',
-        background: 'rgba(0, 0, 255, 0.8)',
+        background: 'rgba(0, 0, 255, 0.6)',
     },
     recovered: {
         // borderBottom: '10px solid rgba(0, 255, 0, 0.5)',
-        background: 'rgba(0, 255, 0, 0.8)',
+        background: 'rgba(0, 255, 0, 0.6)',
     },
     deaths: {
         // borderBottom: '10px solid rgba(255, 0, 0, 0.5)',
-        background: 'rgba(255, 0, 0, 0.8)',
+        background: 'rgba(255, 0, 0, 0.6)',
     },
     vectors: {
         height: '100px',
