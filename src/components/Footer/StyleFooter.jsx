@@ -35,7 +35,6 @@ export const useStyles = makeStyles(theme => ({
     contain: {
         display: 'inline-block',
         marginTop: '5px',
-        marginLeft: '800px',
     },
     github: {
         color: 'black',
