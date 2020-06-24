@@ -1,13 +1,13 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
 import { useStyles } from './StyleFooter';
 import cloud from './cloud.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { FaFacebook } from 'react-icons/fa';
+import { GoMarkGithub } from 'react-icons/go'
 
 function Footer (){
 
-    const classes = useStyles()
+    const classes = useStyles();
 
     return (
         <div className={classes.container}>
@@ -19,12 +19,12 @@ function Footer (){
                             Rooshan Ahmed&copy;
                         </Typography>
                         <div className={classes.contain}>
-                            <a href="https://github.com/rooshanahmed" className={classes.github} target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faGithub} size="3x"/>
-                            </a>
-                            <a href="https://www.facebook.com/rooshan.ahmed0" className={classes.facebook} target="_blank" rel="noopener noreferrer">
-                                <FontAwesomeIcon icon={faFacebook} size="3x"/>
-                            </a>
+                            <IconButton href="https://www.facebook.com/rooshan.ahmed0" target="_blank">
+                                <FaFacebook color='blue' size='2em'/>
+                            </IconButton>
+                            <IconButton href="https://github.com/rooshanahmed" target="_blank">
+                                <GoMarkGithub color='black' size='2em'/>
+                            </IconButton>
                         </div>
                     </div>
                 </Toolbar>
