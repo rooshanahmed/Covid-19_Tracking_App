@@ -20,10 +20,10 @@ function Footer (){
                         </Typography>
                         <div className={classes.contain}>
                             <IconButton href="https://www.facebook.com/rooshan.ahmed0" target="_blank">
-                                <FaFacebook color='#4267B2' size='2em'/>
+                                <FaFacebook color='#4267B2' size='1.5em'/>
                             </IconButton>
                             <IconButton href="https://github.com/rooshanahmed" target="_blank">
-                                <GoMarkGithub color='black' size='2em'/>
+                                <GoMarkGithub color='black' size='1.5em'/>
                             </IconButton>
                         </div>
                     </div>
