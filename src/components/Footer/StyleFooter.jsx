@@ -2,29 +2,17 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles(theme => ({
     container: {
-        width: '100%',
+        width: '100%'
     },
     footer: {
         borderTopRightRadius: '15px',
         borderTopLeftRadius: '15px',
     },
-    toolbar: {
-        display: 'flex',
-    },
-    vector: {
-        height: '200px',
-        marginLeft: '10px',
-        [theme.breakpoints.down("sm")]: {
-            height: '150px'
-        },
-        [theme.breakpoints.down("xs")]: {
-            height: '100px'
-        },    
-    },
     typo: {
         fontFamily: 'Poppins',
-        color: 'black',
+        color: 'white',
         borderBottom: '1px solid black',
+        flexGrow: "1",
         [theme.breakpoints.down("sm")]: {
             fontSize: '1.5em'
         },
@@ -33,14 +21,6 @@ export const useStyles = makeStyles(theme => ({
         },    
     },
     contain: {
-        display: 'inline-block',
-        marginTop: '5px',
-    },
-    github: {
-        color: 'black',
-    },
-    facebook: {
-        color: 'blue',
-        padding: '5px',
-    },
+        marginLeft: '850px'
+    }
 }));

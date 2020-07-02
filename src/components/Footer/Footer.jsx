@@ -1,35 +1,38 @@
-import React from 'react';
-import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
-import { useStyles } from './StyleFooter';
-import cloud from './cloud.png';
-import { FaFacebook } from 'react-icons/fa';
-import { GoMarkGithub } from 'react-icons/go'
+import React from "react";
+import { AppBar, Toolbar, Typography, IconButton } from "@material-ui/core";
+import { useStyles } from "./StyleFooter";
+import { FaFacebook } from "react-icons/fa";
+import { GoMarkGithub } from "react-icons/go";
 
-function Footer (){
+function Footer() {
+  const classes = useStyles();
 
-    const classes = useStyles();
-
-    return (
-        <div className={classes.container}>
-            <AppBar position="static" className={classes.footer} style={{ background : '#282c34' }}>
-                <Toolbar variant="dense" className={classes.toolbar}>
-                    <img src={cloud} className={classes.vector} alt="cloud logo"/>   
-                    <div>
-                        <Typography variant="h4" className={classes.typo}>
-                            Rooshan Ahmed&copy;
-                        </Typography>
-                        <div className={classes.contain}>
-                            <IconButton href="https://www.facebook.com/rooshan.ahmed0" target="_blank">
-                                <FaFacebook color='#4267B2' size='2em'/>
-                            </IconButton>
-                            <IconButton href="https://github.com/rooshanahmed" target="_blank">
-                                <GoMarkGithub color='black' size='2em'/>
-                            </IconButton>
-                        </div>
-                    </div>
-                </Toolbar>
-            </AppBar>
+  return (
+    <AppBar
+      position="static"
+      className={classes.footer}
+      style={{ background: "#282c34" }}
+    >
+      <Toolbar>
+        <div>
+          <Typography variant="h5" className={classes.typo}>
+            Project By Rooshan Ahmed&copy;
+          </Typography>
+          <Typography variant="subtitle2" style={{ fontSize: '20px', color: 'white' }}>Stay Home Stay Safe</Typography>
         </div>
-    );
+        <div className={classes.contain}>
+          <IconButton
+            href="https://www.facebook.com/rooshan.ahmed0"
+            target="_blank"
+          >
+            <FaFacebook color="#4267B2" size="1.5em" />
+          </IconButton>
+          <IconButton href="https://github.com/rooshanahmed" target="_blank">
+            <GoMarkGithub color="black" size="1.5em" />
+          </IconButton>
+        </div>
+      </Toolbar>
+    </AppBar>
+  );
 }
-export default Footer
+export default Footer;
