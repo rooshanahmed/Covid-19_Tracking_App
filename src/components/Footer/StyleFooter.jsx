@@ -21,6 +21,6 @@ export const useStyles = makeStyles(theme => ({
         },    
     },
     contain: {
-        marginLeft: '850px'
-    }
+        marginLeft: '850px',
+    },
 }));
