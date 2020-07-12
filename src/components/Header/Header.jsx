@@ -4,6 +4,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import logo from './logo.png';
 import useStyles from './Style';
+import useWebAnimations, { bounceInLeft } from '@wellyshen/use-web-animations';
 
 
 
@@ -11,11 +12,13 @@ function Header (){
 
     const classes = useStyles();
 
+    const { ref } = useWebAnimations({...bounceInLeft});
+
     return (
         <div className={classes.container}>
             <AppBar position="static" className={classes.right} style={{ background : '#282c34' }}>
                 <Toolbar variant="dense">
-                    <img src={logo} className={classes.logo} title="Covid-19" alt="logo" />
+                    <img src={logo} className={classes.logo} title="Covid-19" alt="logo" ref={ ref } />
                 </Toolbar>
             </AppBar>
             <AppBar position="static" className={classes.left} style={{ background : '#282c34' }}>
