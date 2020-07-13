@@ -14,23 +14,20 @@ function Footer() {
       style={{ background: "#282c34" }}
     >
       <Toolbar>
-        <div>
-          <Typography variant="h5" className={classes.typo}>
-            Project By Rooshan Ahmed&copy;
-          </Typography>
-          <Typography variant="subtitle2" style={{ fontSize: '20px', color: 'white' }}>Stay Home Stay Safe</Typography>
-        </div>
-        <div className={classes.contain}>
-          <IconButton
-            href="https://www.facebook.com/rooshan.ahmed0"
-            target="_blank"
-          >
-            <FaFacebook color="#4267B2" size="1.5em" />
-          </IconButton>
-          <IconButton href="https://github.com/rooshanahmed" target="_blank">
-            <GoMarkGithub color="black" size="1.5em" />
-          </IconButton>
-        </div>
+        <Typography variant="h5" className={classes.typo}>
+          Project By Rooshan Ahmed&copy;
+          <br />
+          Stay Home Stay Safe
+        </Typography>
+        <IconButton
+          href="https://www.facebook.com/rooshan.ahmed0"
+          target="_blank"
+        >
+          <FaFacebook color="#4267B2" size="1.5em" />
+        </IconButton>
+        <IconButton href="https://github.com/rooshanahmed" target="_blank">
+          <GoMarkGithub color="black" size="1.5em" />
+        </IconButton>
       </Toolbar>
     </AppBar>
   );
