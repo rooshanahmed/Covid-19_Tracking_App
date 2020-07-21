@@ -12,7 +12,16 @@ function Header (){
 
     const classes = useStyles();
 
-    const { ref } = useWebAnimations({...bounceInLeft});
+    const {keyframes: main , timing: mainTime} = bounceInLeft;
+
+    const { ref } = useWebAnimations({
+        keyframes: main,
+        timing: {
+            ...mainTime,
+            delay: '1000',
+            easing: 'ease',
+        }
+    });
 
     return (
         <div className={classes.container}>
