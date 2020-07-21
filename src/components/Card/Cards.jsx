@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, Grid } from '@material-ui/core';
+import { Card, CardContent, Typography, Grid, CircularProgress } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 import { useStyles } from './StyleCard';
@@ -10,7 +10,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
     const classes = useStyles();
 
     if(!confirmed) {
-        return 'Fetching data... please wait..'
+        return <CircularProgress />
     }
 
     return ( 
