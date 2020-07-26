@@ -9,7 +9,7 @@ import {
 import CountUp from "react-countup";
 import cx from "classnames";
 import { useStyles } from "./StyleCard";
-import infected from "./infected.gif";
+import inf from "./inf.gif";
 import recovered0 from "./recovered0.gif";
 import deaths0 from "./deaths0.gif";
 
@@ -31,7 +31,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           md={3.5}
         >
           <CardContent className={classes.cardContent}>
-            <img src={infected} alt="infected" width="120px" height="120px" />
+            <img src={inf} alt="infected" width="140px" height="140px" />
             <Typography
               variant="h5"
               color="textPrimary"
@@ -67,8 +67,8 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <img
               src={recovered0}
               alt="recovered"
-              width="120px"
-              height="120px"
+              width="140px"
+              height="140px"
             />
             <Typography
               variant="h5"
@@ -102,7 +102,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           md={3.5}
         >
           <CardContent className={classes.cardContent}>
-            <img src={deaths0} alt="deaths" width="120px" height="120px" />
+            <img src={deaths0} alt="deaths" width="140px" height="140px" />
             <Typography
               variant="h5"
               color="textPrimary"
@@ -132,4 +132,4 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   );
 };
 
-export default Cards
+export default Cards;
