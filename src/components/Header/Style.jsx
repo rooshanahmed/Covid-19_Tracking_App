@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme =>({
         }
     },
     logo: {
-        height: '250px',
+        height: '200px',
         margin: '30px',
         [theme.breakpoints.down("sm")]: {
             height: '200px'
