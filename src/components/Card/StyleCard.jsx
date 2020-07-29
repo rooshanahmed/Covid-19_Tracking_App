@@ -1,56 +1,52 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 
-
-export const useStyles = makeStyles(theme => ({
-
-    container: {
-        margin: '50px 0',
-        [theme.breakpoints.down("sm")]: {
-            margin: '30px 120px 30px 120px'
-        },
-        [theme.breakpoints.down("xs")]: {
-            margin: '30px 70px 30px 70px'
-        }
+export const useStyles = makeStyles((theme) => ({
+  container: {
+    margin: "50px 0",
+    [theme.breakpoints.down("sm")]: {
+      margin: "30px 120px 30px 120px",
     },
-    card: {
-        margin: '4px !important',        
-        // margin: '50px 0',
-        [theme.breakpoints.down("sm")]: {
-            marginBottom: '10px !important' 
-        },
-        [theme.breakpoints.down("xs")]: {
-            marginBottom: '10px !important'
-        }
+    [theme.breakpoints.down("xs")]: {
+      margin: "30px 70px 30px 70px",
     },
-    cardContent: {
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        
+  },
+  card: {
+    margin: "4px !important",
+    // margin: '50px 0',
+    [theme.breakpoints.down("sm")]: {
+      marginBottom: "10px !important",
     },
-    heading: {
-        borderBottom: '1px solid azure',
-        fontWeight: 'bold'
+    [theme.breakpoints.down("xs")]: {
+      marginBottom: "10px !important",
     },
-    infected: {
-        //borderBottom: '10px solid rgba(0, 0, 255, 0.5)',
-        background: 'rgba(0, 0, 255, 0.6)',
-    },
-    recovered: {
-        // borderBottom: '10px solid rgba(0, 255, 0, 0.5)',
-        background: 'rgba(0, 255, 0, 0.6)',
-    },
-    deaths: {
-        // borderBottom: '10px solid rgba(255, 0, 0, 0.5)',
-        background: 'rgba(255, 0, 0, 0.6)',
-    },
-    vectors: {
-        height: '100px',
-        marginBottom: '10px'
-    },
-    bottomText: {
-        textAlign: 'center'
-    },
-
-}))
+  },
+  cardContent: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  heading: {
+    borderBottom: "1px solid azure",
+    fontWeight: "bold",
+  },
+  infected: {
+    //borderBottom: '10px solid rgba(0, 0, 255, 0.5)',
+    background: "rgba(0, 0, 255, 0.7)",
+  },
+  recovered: {
+    // borderBottom: '10px solid rgba(0, 255, 0, 0.5)',
+    background: "rgba(0, 255, 0, 0.7)",
+  },
+  deaths: {
+    // borderBottom: '10px solid rgba(255, 0, 0, 0.5)',
+    background: "rgba(255, 0, 0, 0.7)",
+  },
+  vectors: {
+    height: "100px",
+    marginBottom: "10px",
+  },
+  bottomText: {
+    textAlign: "center",
+  },
+}));
