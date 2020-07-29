@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logo: {
-    height: "200px",
+    height: "180px",
     margin: "30px",
     [theme.breakpoints.down("sm")]: {
       height: "200px",

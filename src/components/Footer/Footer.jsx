@@ -14,10 +14,16 @@ function Footer() {
       style={{ background: "#282c34" }}
     >
       <Toolbar>
-        <Typography variant="h5" className={classes.typo}>
-          Project By Rooshan Ahmed&copy;
-          <br />
-          Stay Home Stay Safe
+        <Typography
+          variant="h5"
+          className={classes.typo}
+          style={{ fontFamily: "Times New Roman, Times, serif" , fontSize: "1.5em" }}
+        >
+          <strong>
+            Rooshan Ahmed&copy;
+            <br />
+            Stay Home Stay Safe
+          </strong>
         </Typography>
         <IconButton
           href="https://www.facebook.com/rooshan.ahmed0"
