@@ -5,6 +5,6 @@
 
 <img src="./images/1.png" alt="Screenshot" />
 
-<br /><br />
+<br />
 
 <img src="./images/2.png" alt="Screenshot1" />
