@@ -10,10 +10,10 @@ export const useStyles = makeStyles((theme) => ({
     color: "white",
     flexGrow: "1",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "1.5em",
+      fontSize: "1.2em",
     },
     [theme.breakpoints.down("xs")]: {
-      fontSize: "1em",
+      fontSize: "0.8em",
     },
   },
 }));
