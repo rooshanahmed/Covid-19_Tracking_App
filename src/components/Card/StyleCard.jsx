@@ -29,6 +29,7 @@ export const useStyles = makeStyles((theme) => ({
   heading: {
     borderBottom: "1px solid azure",
     fontWeight: "bold",
+    fontFamily: "Comfortaa",
   },
   infected: {
     //borderBottom: '10px solid rgba(0, 0, 255, 0.5)',
@@ -48,5 +49,6 @@ export const useStyles = makeStyles((theme) => ({
   },
   bottomText: {
     textAlign: "center",
+    fontFamily: "Comfortaa",
   },
 }));

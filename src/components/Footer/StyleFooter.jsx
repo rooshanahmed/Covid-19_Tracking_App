@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme) => ({
     borderTopLeftRadius: "15px",
   },
   typo: {
-    fontFamily: "Poppins",
+    fontFamily: "Comfortaa",
     color: "white",
     flexGrow: "1",
     [theme.breakpoints.down("sm")]: {

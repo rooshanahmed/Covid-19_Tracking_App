@@ -17,7 +17,7 @@ function Footer() {
         <Typography
           variant="h5"
           className={classes.typo}
-          style={{ fontFamily: "Times New Roman, Times, serif" , fontSize: "1.5em" }}
+          style={{ fontSize: "1.5em" }}
         >
           <strong>
             Rooshan Ahmed&copy;
